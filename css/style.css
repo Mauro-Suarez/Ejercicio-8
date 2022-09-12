@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+/* estilo del contenedor de la 1er seccion de texto e imagen*/
+#Texto1 {
+    width: 80%;
+    float: left;
+    font-family: Verdana;
+    font-size: 150%;
+    text-align: justify;
+}
+
+/* estilo de texto e imagen de la 1er seccion*/
+#p_texto1 {
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 5px;
+}
+
+#imagen1 {
+    width: 20%;
+    float: right;
+}
+
+#separacion {
+    clear: both;
+}
+
+/* estilo del contenedor de la 2da seccion de texto e imagen*/
+#texto2 {
+    width: 75%;
+    float: right;
+    font-size: 200%;
+    text-align: justify;
+    position: relative;
+}
+
+/* estilo de texto e imagen de la 2da seccion*/
+#p_texto2 {
+    text-align: center;
+    padding: 5px;
+}
+
+#imagen2 {
+    width: 25%;
+    float: left;
+}
+
+/* ancho de la clase de las imagenes*/
+.imagenes {
+    max-width: 100%;
+}
+
+/* estilo del contenedor de las imagenes*/
+figure {
+    padding: 5px;
+}
+
+/* estilo del header*/
+header {
+    text-align: center;
+    padding: 5px;
+    border: coral solid;
+}
+
+/* estilo del footer*/
+footer {
+    margin: 1rem;
+    font-size: larger;
+}
+
+/* estilo de la clase contenedora del footer*/
+.pie {
+    padding-left: 5px;
+    border: coral solid;
+    background-color: coral;
+    bottom: 5px;
+}
+
+.pie * {
+    background-color: coral;
+}
+
+/* estilo de los iconos de los links en el footer*/
+.pie img {
+    max-width: 15px;
+}
